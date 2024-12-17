@@ -1,0 +1,6 @@
+services:
+  app:
+    image: avswcs/hello-app
+# Docker Compose démarre un conteneur Docker à partir du nom d'une image.
+# # docker compose up
+# L'image est d'abord cherchée en local puis sur DockerHub si elle n'est pas présente.
